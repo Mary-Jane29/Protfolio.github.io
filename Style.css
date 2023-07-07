@@ -1,0 +1,160 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(bg.jpg);
+    /* background-color: rgb(67, 22, 67); */
+    /* color: whitesmoke; */
+}
+
+img{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    margin-left: 700px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border: 2px solid aquamarine;
+    box-shadow: 0 0 5px 5px black;
+}
+
+span{
+    color: aqua;
+}
+
+.c1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.c2{
+    position: relative;
+    font-size: 25px;
+    color: blue;
+    text-decoration: none;
+    font-weight: 600px;
+    padding-left: 40px;
+    cursor: default;
+    animation: slideRight is ease forwards;
+    animation-delay: 2s;
+    opacity: 10;
+}
+
+.it{
+    background-color: black;
+}
+
+.nb a{
+    display: inline-block;
+    font-size: 25px;
+    color: blue;
+    text-decoration: none;
+    font-weight: 500px;
+    margin-left: 25px;
+    transition: 3s;
+    transition-duration: 1s;
+}
+
+.nb a:hover{
+    color: pink;
+}
+
+.h0{
+    position: relative;
+    width: 600px;
+    justify-content: space-between;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 200px;
+}
+
+.h2{
+    line-height: 25px;
+    word-spacing: 2px;
+    color: rgb(247, 230, 230);
+}
+
+p{
+    padding-top: 20px;
+    
+}
+
+.f2{
+    color: rgb(247, 247, 6);
+}
+
+
+
+.fa-brands{
+    display: flex;
+    margin-left: 10px;
+    padding-top: 50px;
+    color: aqua;
+}
+.fa-solid{
+    margin-left: 10px;
+    color: aqua;
+}
+
+.fa-brands a:hover{
+    color: wheat;
+}
+
+/* .f3 {
+    width: 40px;
+    height: 40px;
+    background: aqua;
+    color: blueviolet;
+    margin-left: 10px;
+    margin-top: 30px;
+} */
+
+.f4{
+    width: 150px;
+    height: 45px;
+    padding-top: 8px;
+    padding-left: 8px;
+    position: absolute;
+    background: aqua;
+    margin-top: 20px;
+    text-decoration: none;
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+}
+.f4:hover{
+    box-shadow: 0 0 10px aqua;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+@keyframes slideTop {
+    0% {
+        transform: translatey(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translatey(0px);
+        opacity: 1;
+    }
+}
